@@ -1,3 +1,8 @@
+process.on('uncaughtException', function(err) { 
+    console.log(err) 
+})
+
+
 const cleverbot = require("cleverbot-free");
 
 const mineFlayer = require('mineflayer');
