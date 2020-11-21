@@ -1,0 +1,27 @@
+{
+  "name": "clevercraft",
+  "version": "0.0.0",
+  "description": "A convincing Minecraft bot",
+  "main": "index.js",
+  "dependencies": {
+    "cleverbot-free": "^1.0.5",
+    "minecraft-protocol": "^1.19.0",
+    "mineflayer": "^2.34.0",
+    "mineflayer-pathfinder": "^1.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brooswit/clevercraft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brooswit/clevercraft/issues"
+  },
+  "homepage": "https://github.com/brooswit/clevercraft#readme"
+}
