@@ -13,7 +13,7 @@ const { GoalFollow, GoalNear } = goals;
 
 let client = null;
 let botInstance = null;
-let hosts = ['minecraft.andrewcorp.com', 'play.duckmania.net', 'StoneTechMC.mcserver.us', 'oceaniacraft.net', 'kaboom.pw', 'Earthmc.se', 'mc.trilliumhq.com', 'wolfpackmc.net', 'avas.cc', 'play.medievalmc.org', 'play.toxigon.com', 'mc.enchantedsword.net'];
+let hosts = ['minecraft.andrewcorp.com', 'play.duckmania.net', 'StoneTechMC.mcserver.us', 'oceaniacraft.net', 'play.kaboom.pw', 'Earthmc.se', 'mc.trilliumhq.com', 'wolfpackmc.net', 'avas.cc', 'play.medievalmc.org', 'play.toxigon.com', 'mc.enchantedsword.net'];
 let blockedUsernames = ["ADMIN", "VIP", "Default", "ClearLag", "org", "HL", "PvPManager", "Era", "Help", "Server", "KSXB4LQPCNS7", "Member", "Discord", "already", "players"]
 let config = {
     host: hosts[0],//[Math.floor(Math.random() * hosts.length)],
